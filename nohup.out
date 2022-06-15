@@ -1,0 +1,10 @@
+AppArmor status: apparmor not enabled
+2022/06/15 19:02:57.539618 patch.go:64: Patching system state level 6 to sublevel 1...
+2022/06/15 19:02:57.542348 patch.go:64: Patching system state level 6 to sublevel 2...
+2022/06/15 19:02:57.544773 patch.go:64: Patching system state level 6 to sublevel 3...
+2022/06/15 19:02:57.552856 daemon.go:347: started snapd/2.49-1+deb11u1 (series 16; classic; devmode) debian/11 (amd64) linux/5.15.0-37-generic.
+2022/06/15 19:02:57.560339 main.go:129: system does not fully support snapd: cannot mount squashfs image using "squashfs": mount: /tmp/sanity-mountpoint-850628913: mount failed: Operation not permitted.
+2022/06/15 19:02:57.560483 daemon.go:440: adjusting startup timeout by 30s (pessimistic estimate of 30s plus 5s per snap)
+2022/06/15 19:03:02.577818 daemon.go:589: gracefully waiting for running hooks
+2022/06/15 19:03:02.577904 daemon.go:591: done waiting for running hooks
+daemon stop requested to wait for socket activation
