@@ -1,5 +1,14 @@
 // Modules to control application life and create native browser window
-const {app, BrowserWindow, session, shell} = require('electron');
+const {app, BrowserWindow, Menu, session, shell} = require('electron');
+// hides application menu
+Menu.setApplicationMenu(false);
+
+const contextMenu = require('electron-context-menu');
+
+contextMenu({
+	showSaveImageAs: true
+});
+
 const path = require('path');
 
 // define app defaults
